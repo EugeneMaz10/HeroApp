@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import models.Hero;
 import models.Squad;
 import spark.ModelAndView;
@@ -81,4 +82,6 @@ public class App {
     }
 }
 
+=======
+>>>>>>> 0c27563192695f1536487a1009636e09f5a0c0dd
 
