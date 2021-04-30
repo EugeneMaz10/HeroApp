@@ -2,7 +2,7 @@
 # HeroSquad`
 
 ## Author
-Brian Muthaka 
+Eugene
 
 ## Description
 Its an application that gives the user a chance to create a squad and also add a hero to the squad.
