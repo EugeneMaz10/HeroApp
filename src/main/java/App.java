@@ -16,21 +16,21 @@ public class App {
 
         //get: index route for home page
         get("/", (request, response) -> {
-            Map<String, Object> model = new HashMap<>();
+            Map<String, Object> model = new HashMap();
             return new ModelAndView(model, "index.hbs");
         }, new HandlebarsTemplateEngine());
 
 
 //        route for adding hero
         get("/heroForm", (request, response) -> {
-            Map<String, Object> model = new HashMap<>();
+            Map<String, Object> model = new HashMap();
             return new ModelAndView(model, "heroForm.hbs");
         }, new HandlebarsTemplateEngine());
 
 
         post("/addHero1", (request, response) -> {
 
-            Map<String, Object> model = new HashMap<>();
+            Map<String, Object> model = new HashMap();
             String name = request.queryParams("name");
             int age = Integer.parseInt(request.queryParams("age"));
             String power = request.queryParams("power");
@@ -44,7 +44,7 @@ public class App {
 
 //retreives data from above for new hero
         get("/hero", (request, response) -> {
-            Map<String, Object> model = new HashMap<>();
+            Map<String, Object> model = new HashMap();
             model.put("addHeroes", Hero.getAll()); //displays hero
             return new ModelAndView(model, "hero.hbs");
         }, new HandlebarsTemplateEngine());
@@ -53,14 +53,14 @@ public class App {
 
         //route to form to create squad
         get("/squadForm", (request, response) -> {
-            Map<String, Object> model = new HashMap<>();
+            Map<String, Object> model = new HashMap();
             return new ModelAndView(model, "squadForm.hbs");
         }, new HandlebarsTemplateEngine());
 
 //    route for creating squad
         post("/success", (request, response) -> {
 
-            Map<String, Object> model = new HashMap<>();
+            Map<String, Object> model = new HashMap();
             String name = request.queryParams("name");
             int size = Integer.parseInt(request.queryParams("size"));
             String cause = request.queryParams("cause");
@@ -73,7 +73,7 @@ public class App {
 
 //retreives data from above for new squad
         get("/newSquad", (request, response) -> {
-            Map<String, Object> model = new HashMap<>();
+            Map<String, Object> model = new HashMap();
             model.put("squad", Squad.getMembers()); //displays squad created
             return new ModelAndView(model, "newSquad.hbs");
         }, new HandlebarsTemplateEngine());
