@@ -15,14 +15,16 @@ public class App {
         staticFileLocation("/public");
 
         //get: index route for home page
-        get("/", (request, response) -> {
+        get("/", (request, response) ->
+            {
             Map<String, Object> model = new HashMap();
             return new ModelAndView(model, "index.hbs");
         }, new HandlebarsTemplateEngine());
 
 
 //        route for adding hero
-        get("/heroForm", (request, response) -> {
+        get("/heroForm", (request, response) ->
+            {
             Map<String, Object> model = new HashMap();
             return new ModelAndView(model, "heroForm.hbs");
         }, new HandlebarsTemplateEngine());
