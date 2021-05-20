@@ -37,20 +37,14 @@ Enter power of the hero
 Enter weakness of the hero
 
 
-## Link
-https://github.com/MUTHAKABRIAN/herosquad
+
 
 ## Technologies used
 Java to develop back-end and run test.
 Spark to display application the browser
 css and bootstrap for styling.
 
-## CONTACT ME 
-  If you have any Questions please reach out to me via `muthakabrian@gmail.com` 
 
-
- ## License and copyright  Copyright (c) 2021 [Brian Muthaka]
- 
  
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -73,4 +67,4 @@ SOFTWARE.
 =======
 # HeroApp
 A HeroApplication
->>>>>>> 0c27563192695f1536487a1009636e09f5a0c0dd
+
