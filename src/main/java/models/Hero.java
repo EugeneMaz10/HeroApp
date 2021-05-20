@@ -10,7 +10,7 @@ public class Hero {
     private String power;
     private String weaknesses;
     private int size;
-    private static List <Hero> instances = new ArrayList< >();
+    private static List <Hero> instances = new ArrayList();
 
     public Hero(String name,int age,String power,String weaknesses){
         this.name=name;
