@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package models;
 
 import models.Hero;
@@ -51,6 +51,6 @@ public class Squad {
     }
 
 }
-=======
 
->>>>>>> 0c27563192695f1536487a1009636e09f5a0c0dd
+
+
