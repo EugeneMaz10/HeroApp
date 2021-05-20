@@ -11,7 +11,7 @@ public class Squad {
     private String name;
     private String cause;
     private int plusSize;
-    private static List<Object> members = new ArrayList<>();
+    private static List<Object> members = new ArrayList();
     private List<Hero> hero = new ArrayList<>();
 
     public Squad(int size, String name, String cause) {
