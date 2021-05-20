@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package models;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -58,6 +58,5 @@ public class Hero {
     }
 
 }
-=======
 
->>>>>>> 0c27563192695f1536487a1009636e09f5a0c0dd
+
